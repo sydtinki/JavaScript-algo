@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    
+<script>
+    
+
+
+//Count number of spaces in a sentence
+
+    
+
+
+ var str = "Hello there and how are you";
+        
+        
+
+ alert(spaces(str));
+        
+    
+
+ function spaces(x){ 
+        
+     count = 0;
+       
+     i=0;
+        
+       
+
+     while(i<x.length){
+           
+         if(x[i]==" "){
+                
+         count++;
+            
+         }
+       i++; 
+
+ }
+        
+        
+   
+
+ return count;
+ 
+           
+   }
+   
+
+  </script>
+
+
+  </head>
+
+
+<body>
+</body>
+<html>

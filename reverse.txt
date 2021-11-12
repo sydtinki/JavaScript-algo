@@ -1,0 +1,34 @@
+<html>
+<head>
+<script>
+
+// Rearrange elements of an array in Descending order
+
+var numbs = [7,9,9,9,6];
+
+var newArr = reverse(numbs);
+
+
+alert(newArr[newArr.length-1])
+alert(newArr[0])
+
+function reverse(x){
+    
+    var retArry = []
+    var j=x.length
+    
+for(i=0; i<x.length; i++){ j--
+       
+        retArry[i]=x[j]
+    }
+    
+    return retArry;
+}
+
+
+</script>
+
+</head>
+<body>
+</body>
+</html>

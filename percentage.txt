@@ -1,0 +1,34 @@
+<html>
+<head>
+<script>
+
+// In an array of goats find how many are males
+
+var goats = new Array("male","female","male");
+
+
+alert(percent("male",goats))
+
+function percent(x,arry){
+    
+var total = 0;
+    
+    for(i=0; i<arry.length; i++){
+        
+if(arry[i] == x){
+            total++
+        }
+        
+    }
+    
+    
+    return (total/arry.length*100).toFixed(2)+" %";
+}
+
+
+</script>
+
+</head>
+<body>
+</body>
+</html>

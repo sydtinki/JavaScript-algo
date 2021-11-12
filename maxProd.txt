@@ -1,0 +1,67 @@
+<html>
+
+<head>
+   
+ <script>
+    
+    
+
+//print 2 pairs which return maximum product
+        
+        
+
+ var numbs = [8,2,3,4,6,9];
+        
+ var prod = 0;
+        
+ var a =0;
+       
+ var b=0;
+        
+        
+
+ window.onload=print;
+        
+       
+
+
+  function print(){ 
+           
+
+    for(i=0; i<numbs.length; i++){
+               
+       for(j=i+1; j<numbs.length; j++){
+                    
+             
+       if(numbs[i] * numbs[j] >prod){
+                       
+
+       prod = numbs[i]*numbs[j];
+                    
+          
+       a = i;
+            
+       b = j;
+       
+ }
+            
+        
+
+}}
+          
+
+    document.write(numbs[a]+" "+numbs[b]);
+       
+
+  }
+    
+
+</script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

@@ -1,0 +1,73 @@
+<html>
+<head>
+<script>
+
+// Find out which package you can buy with given amount
+
+var pak=[20,19];
+var amt=[34,26];
+
+var chars = ['a','b'];
+
+
+ alert(solution(35,pak, amt))
+
+ function solution(n, bundles, costs){ 
+  
+  //Constraints  
+  
+  if(!(n>=1 && n<=100) || isNaN(n) || bundles.length != costs.length || n<0){
+      
+      return "Error";
+  }
+  
+  for(e=0; e<bundles.length; e++){
+      
+  if(isNaN(bundles[e]) || isNaN(costs[e]) || bundles[e]<0 || costs[e]<0){
+         
+     return "Error";
+      }
+  }
+  
+  //Logic
+  
+ total=0;
+ totals = [];
+ i=0;
+ temp=n;
+ 
+ while(i<=bundles.length){
+     
+     idx = totals.length;
+     cost=costs[idx]
+     qty=bundles[idx]
+     
+ while(temp>=cost){
+     
+     total+=qty;
+     temp-=cost;
+    
+} totals[idx]=total;
+
+temp=n; total=0;
+
+     i++;
+ }
+ 
+  totals.sort();
+  
+  //Output
+ 
+ return totals[totals.length-1];
+ 
+}
+
+
+
+</script>
+
+
+</head>
+<body>
+</body>
+</html>

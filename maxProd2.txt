@@ -1,0 +1,57 @@
+<html>
+
+<head>
+   
+
+ <script>
+    
+ //Print 3 elements whose product is the highest
+        
+       
+
+  var numbs = [1,2,3,4,3,9];
+        
+        
+
+  window.onload=print;
+        
+
+
+  function print(){
+   
+    var prod =1;
+   //sort
+   numbs.sort();
+            
+  
+
+   for(start = numbs.length-3; start<numbs.length; start++){
+   
+              
+    document.write(numbs[start]+" ");
+  
+   
+
+      prod = prod*numbs[start];
+       
+
+  }
+        
+       
+
+      alert("Product "+prod)
+        
+
+    
+        }
+    
+
+</script>
+
+
+
+</head>
+
+<body>
+</body>
+<html>

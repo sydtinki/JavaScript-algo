@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    
+<script>
+    
+
+
+// print elements of an array beginning from the last
+    
+    
+
+ var numbs = [1,2,3,4];
+        
+       
+
+ print();
+        
+       
+
+ function print(){ 
+            
+ 
+
+     for(i=numbs.length-1; i>=0; i--){
+     
+    
+
+     document.write(numbs[i]+" ")
+            
+
+
+ }
+            
+       
+
+ }
+   
+
+ </script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

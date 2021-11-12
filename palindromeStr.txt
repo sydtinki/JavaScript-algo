@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    
+<script>
+
+
+//check if a given string is palindrome or not
+
+    
+
+var str = "Did";
+        
+       
+
+var isPalind = print(str);
+       
+       
+
+ alert(isPalind)
+        
+        
+
+function print(x){
+            
+
+ var wrd= x.toLowerCase();
+            
+ var rev ="";
+            
+            
+
+ for(j=x.length-1; j>=0; j--){ 
+    
+
+      rev+=wrd[j]
+     }
+            
+
+        for(k=0; k<wrd.length; k++){
+                
+  
+
+            if(wrd[k]!=rev[k]){
+        
+
+              return false;
+
+    }}
+       
+
+             return true; }
+    
+
+</script>
+
+ 
+
+</head>
+
+ <body>
+</body>
+<html>

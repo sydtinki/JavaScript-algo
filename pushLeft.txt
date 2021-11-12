@@ -1,0 +1,52 @@
+<html>
+<head>
+<script>
+
+//Push negatives to the left
+
+var numbs =[1,2,3,-1,-2,4];
+
+numbs = push(numbs);
+
+alert(numbs[0])
+
+
+ function push(x){  
+     
+     retArry = [];
+     id = -1;
+     
+for(i=0; i<x.length; i++){
+    if(x[i]<0){ id++
+    
+    retArry[id]=x[i]
+        
+    }
+}
+for(j=0; j<x.length; j++){
+    if(x[j]>=0){ id++
+    
+    retArry[id]=x[j];
+        
+    }
+    
+}
+ return retArry;
+}
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</head>
+<body>
+</body>
+</html>

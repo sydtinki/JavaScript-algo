@@ -1,0 +1,37 @@
+<html>
+<head>
+    
+<script>
+    
+
+// Round a number to 3 decimals
+        
+       
+
+  print();
+        
+
+
+   function print(){ 
+    
+         x = (6.8/100);
+            
+   
+
+         alert(Number.parseFloat(x).toFixed(3));
+   
+         alert("Same as "+x.toFixed(3));
+   
+        
+    }
+    
+
+</script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

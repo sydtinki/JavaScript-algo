@@ -1,0 +1,39 @@
+<html>
+<head>
+<script>
+
+// Remove one element from an array
+
+var numbs = [6,9,9,7];
+
+var newArr = remove(numbs,6);
+
+
+alert(newArr[0])
+
+function remove(x,num){
+    
+    retArry = [];
+    id=-1;
+    
+    for(i=0; i<x.length+1; i++){
+        
+    if(x[i]!=num){ id++
+    
+        retArry[id]=x[i];
+    }
+        
+    }
+    return retArry;
+}
+
+
+</script>
+
+
+
+
+</head>
+<body>
+</body>
+</html>

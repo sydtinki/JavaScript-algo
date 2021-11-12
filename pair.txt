@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    
+<script>
+    
+    
+
+//print 2 pairs which are less than 3
+        
+        
+
+var numbs = [1,2,3,4,6,9];
+        
+        
+window.onload=print;
+        
+        
+
+function print(){ 
+            
+   for(i=0; i<numbs.length; i++){
+               
+       for(j=i+1; j<numbs.length; j++){
+                    
+                 
+              if(numbs[i] && numbs[j] <4){
+                   
+ 
+        document.write(numbs[i]+" "+numbs[j]+"<br>");
+          
+
+  }
+            
+       
+
+  }
+            
+       
+
+    }}
+   
+
+  </script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

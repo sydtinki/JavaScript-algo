@@ -1,0 +1,28 @@
+<html>
+<head>
+<script>
+
+// Sort words and find which one comes first
+
+var fruits = ["orange", "banana", "apple", "mango"];
+
+ alert(min(fruits))
+
+ function min(x){ 
+     x.sort();
+     
+ return x[0]
+     
+
+}
+
+
+</script>
+
+
+
+
+</head>
+<body>
+</body>
+</html>

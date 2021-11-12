@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    
+<script>
+    
+
+// remove decimals from a given number
+        
+       
+
+  print();
+        
+ 
+
+ function print(){ 
+            
+   
+
+        n = 2.0473;
+    
+    
+        alert(Math.round(n));
+     
+
+    }
+    
+
+  </script>
+
+ 
+
+</head>
+
+
+<body>
+</body>
+<html>

@@ -1,0 +1,51 @@
+<html>
+<head>
+    
+
+<script>
+    
+
+
+//print digits with comma in between
+        
+        
+
+ var numbs =[1,2,3,4];
+        
+       
+
+  print(numbs);
+        
+        
+
+ function print(x){ 
+            
+
+ var com=",";
+            
+            
+
+ for(i=0; i<x.length; i++){
+                
+           
+
+  if(i==x.length-1){ com="";
+              
+
+  }
+    document.write(x[i]+com+" "); }
+ 
+
+            
+            
+        }
+    
+</script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

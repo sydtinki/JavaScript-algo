@@ -1,0 +1,41 @@
+<html>
+
+<head>
+   
+ <script>
+    
+
+
+//Check if a given variable is a number or not
+
+   
+
+  num = 'a';
+        
+        
+
+ alert(a_number(num));
+        
+
+
+  function a_number(x){ 
+     
+    
+
+     itsNumb = ! isNaN(x);
+    
+   
+     return itsNumb;
+   
+        }
+    
+
+ </script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

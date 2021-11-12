@@ -1,0 +1,44 @@
+<html>
+
+<head>
+   
+ <script>
+    
+
+
+//Sort elements of an array using buit-in JavaScript function
+        
+    
+
+ var numbs =[1,2,3,4,0];
+        
+        
+
+ print();
+        
+        
+
+ function print(){ 
+            
+
+       numbs.sort();
+            
+            
+       alert(numbs[0])
+            
+            
+      
+
+   }
+    
+
+ </script>
+
+ 
+
+</head>
+
+
+<body>
+</body>
+<html>

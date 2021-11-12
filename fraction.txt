@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    
+<script>
+    
+
+
+//Find fraction of zeros, negatives and positives in an array
+        
+    
+
+var numbs =[1,2,3,4,0,-1,-1];
+        
+        
+
+print();
+        
+        
+
+function print(){ 
+
+           
+    var size=numbs.length;
+            
+           
+    var positives=0;
+            
+    var negatives=0;
+           
+    var zeros=0;
+            
+           
+
+  for(i=0; i<numbs.length; i++){
+      
+
+      if(numbs[i]==0){ zeros++
+        
+
+}
+        
+
+     if(numbs[i]<0){ negatives++
+       
+
+   }
+        
+
+ if(numbs[i]>0){ positives++
+       
+
+  }
+        
+       
+
+ }
+            
+            
+           
+
+ alert("Positive Fraction "+Number.parseFloat(positives/size).toFixed(3));
+      
+
+      alert("Zeros Fraction "+zeros/size);
+alert("Negative Fraction "+negatives/size)
+            
+            
+        }
+    
+
+</script>
+
+
+
+</head>
+
+
+<body>
+</body>
+<html>

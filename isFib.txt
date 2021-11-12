@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    
+<script>
+    
+    
+
+//Check if a given number is Fibonacci number
+    
+
+alert(isFib(7));
+    
+ 
+
+function isFib(x){ 
+
+        
+   
+ threeBck = x-3;
+    
+ threeFwd = x+3;
+        
+   
+ var i=threeBck;
+    
+ var id=-1;
+    
+ var nearFib =[];
+        
+        
+
+ do{i++; id++;
+        
+        
+
+    nearFib[id]=fib(i);
+        
+        
+
+   }while(i<threeFwd);
+        
+   
+
+   for(j=0; j<nearFib.length; j++){
+        
+        
+       if(nearFib[j]==x){
+           
+
+        return true;
+        
+      
+
+      }}
+        
+
+ return false;
+    }
+    
+
+
+ 
+function fib(x){ 
+          
+     num = 0;
+            
+    
+    let n1=0, n2=1, nextTerm;
+
+ 
+
+   for(i=0; i<x; i++){ num++
+     next = n1;
+     
+      
+
+     if(num == x){ num = next
+          
+   
+
+    }
+      
+    
+
+   nextTerm = n1 + n2;
+     
+   n1 = n2;
+     n2 = nextTerm;
+ }
+            
+            
+    
+
+         return num
+            
+            
+       
+
+ }
+    
+        
+    
+
+</script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

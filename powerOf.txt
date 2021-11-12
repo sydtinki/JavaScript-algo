@@ -1,0 +1,38 @@
+<html>
+
+<head>
+   
+ <script>
+    
+    
+
+//Exponential
+        
+        
+
+print();
+        
+
+
+function print(){ 
+            
+   
+
+  //10 E10
+   n = Math.pow(10,2);
+    
+           
+
+   document.write(n);
+        }
+    
+
+ </script>
+
+
+
+ </head>
+ 
+<body>
+</body>
+<html>

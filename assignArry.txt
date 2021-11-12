@@ -1,0 +1,32 @@
+<html>
+<head>
+   
+
+ <script>
+    
+    
+// Assign an array to another array
+    
+    
+
+var numbs =[1,2,3,4];
+   
+ var numbs1=[3,6,9,12];
+    
+    
+
+  numbs = numbs1;
+    
+    alert(numbs[numbs.length-1])
+  
+  
+   
+ </script>
+
+
+
+</head>
+<body>
+
+</body>
+<html>

@@ -1,0 +1,53 @@
+<html>
+<head>
+   
+ <script>
+    
+
+
+ //Using Do While loop to alert each element of an array
+        
+    
+
+ var numbs =[1,2,3,4];
+        
+       
+
+  print();
+        
+        
+
+ function print(){ 
+            
+   var id=-1;
+        
+   do{id++
+        
+       
+
+    next = numbs[id]; alert("Next "+next)
+            
+       
+ 
+  }while(id<numbs.length-1);
+            
+            
+
+
+  alert("Done!")
+            
+            
+       
+
+ }
+   
+
+ </script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

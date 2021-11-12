@@ -1,0 +1,45 @@
+<html>
+<head>
+    
+
+<script>
+    
+
+
+ // check if a number is in range 0 - 10
+    
+    
+
+ find();
+        
+        
+
+ function find(){ 
+            
+            
+
+  for(i=-1; i<11; i++){
+                
+    inRange=(i>=0 && i<=10);
+                
+        
+    if(inRange){
+            alert(i+", in range 0-10")
+        }
+            }
+        
+
+     
+            
+        }
+    
+
+</script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

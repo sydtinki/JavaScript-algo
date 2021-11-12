@@ -1,0 +1,52 @@
+<html>
+
+<head>
+   
+ <script>
+    
+    
+
+//Fill array with five elements
+        
+        
+
+var numb = [];
+        
+       
+
+ print();
+        
+       
+
+
+ function print(){ 
+            
+    id=-1;
+       
+
+     for(i=0; i<5; i++){ id++
+            
+            
+          numb[id]=i;
+            
+            
+
+}
+            
+           
+    alert(numb[0])
+            
+        
+
+}
+    
+
+</script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

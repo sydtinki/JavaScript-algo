@@ -1,0 +1,71 @@
+<html>
+<head>
+    
+<script>
+    
+
+
+// sort elements of an array
+    
+
+
+var numbs =[3,2,6,0,1,12];
+
+
+var sorted = sort(numbs);
+
+alert(sorted[0])
+    
+ 
+
+ function sort(x){ 
+     
+   // Sort elements in ascending order
+    
+   count = 0;
+     
+    
+
+  do{
+         
+       for(i=0; i<x.length; i++){
+             
+       if(x[i]>x[i+1]){
+   
+
+            a=x[i];
+    b=x[i+1];
+  // swap
+                 
+          
+            x[i]=b;
+    x[i+1]=a;
+                 
+             }
+         }
+    
+
+     
+    count++; 
+         
+     }while(count<x.length);
+     
+  
+
+    return x;
+     
+        
+    
+    }
+    
+
+   
+
+  </script>
+
+ 
+
+</head>
+<body>
+</body>
+<html>

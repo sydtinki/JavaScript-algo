@@ -1,0 +1,52 @@
+<html>
+<head>
+    
+
+ <script>
+    
+
+//Compare 2 arrays and find common element
+        
+        
+
+ var numb = [1,2,3,4];
+        
+ var numb1 = [2,4,6,8];
+        
+       
+
+  print();
+        
+        
+
+ function print(){ 
+        
+
+  for(i=0; i<numb.length; i++){
+            
+    for(j=0; j<numb1.length; j++){
+  if(numb[i]==numb1[j]){
+       
+                        alert(numb[i])
+               
+     }
+            
+        }
+          
+            }
+        
+            
+            
+       
+                }
+   
+
+  </script>
+
+
+</head>
+
+
+ <body>
+</body>
+<html>

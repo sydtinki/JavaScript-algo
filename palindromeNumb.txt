@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    
+<script>
+        
+
+// check if number is palindrome and return 1 if its true otherwise return 0
+       
+
+ var numb = 121;
+        
+       
+
+ var checknumb = NumP(numb);
+        
+
+ alert(checknumb)
+        
+        
+
+ function NumP(x){
+            
+
+   original = x;
+            
+           
+   x = x.toString();
+            
+   rev = "";
+            j = x.length;
+            
+           
+
+     while(j>0){ j--; 
+                
+                
+            
+     rev += x[j];
+        }
+            
+
+     if(rev == original){
+                
+      return 1;
+            }
+
+        else{
+                
+
+          return 0;
+            }
+        }
+    
+
+   </script>
+
+
+
+ </head>
+
+<body>
+</body>
+<html>

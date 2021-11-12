@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    
+<script>
+    
+
+
+// reverse a number
+        
+        
+
+ var numb = 123;
+        
+        
+ var revnumb = NumRev(numb);
+       
+
+  alert(revnumb)
+        
+       
+
+  function NumRev(x){
+            
+           
+
+        x = x.toString();
+           
+        rev = "";
+            j = x.length;
+     
+
+        
+            while(j>0){ j--; 
+          
+        
+                
+        rev += x[j];
+ 
+
+              }
+ 
+    
+            return rev;
+        }
+    
+
+ </script>
+
+
+
+</head>
+
+<body>
+</body>
+<html>

@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    
+
+<script>
+    
+    
+//Linear search
+        
+       
+
+ var numb = 1;
+       
+ var numbs = [1,2,3,4];
+        
+       
+
+ find(numb);
+        
+        
+
+
+function find(x){ 
+            
+            
+
+for(i=0; i<numbs.length; i++){
+        
+
+ if(numbs[i]==x){
+           
+
+  alert(x+" Found")
+        }
+            }
+            
+            
+       
+
+  }
+    
+
+ </script>
+
+
+
+ </head>
+
+
+ <body>
+</body>
+<html>

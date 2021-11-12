@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    
+<script>
+    
+
+
+//Insert a new element in a sorted array
+        
+       
+
+ var numbs = [0,2,3,8];
+        
+        
+
+alert(insert(7,numbs));
+        
+
+
+function insert(x,arry){ 
+    
+  var retArry = [];
+    
+  var id=-1;
+            
+     
+
+   for(i=0; i<arry.length+1; i++){ 
+         
+     id++
+         
+        
+
+       retArry[id] = arry[i];
+         
+        
+
+   if(i==arry.length){
+    
+            
+
+        retArry[id] = x;
+        
+
+}
+            } retArry.sort();
+            
+    
+
+  return retArry;
+            
+        
+
+ }
+    
+
+ </script>
+
+
+
+</head>
+
+<body>
+</body>
+<html>

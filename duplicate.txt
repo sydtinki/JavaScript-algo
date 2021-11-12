@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    
+<script>
+    
+    
+
+ //print duplicates
+        
+        
+
+ var numbs =[0,21,5,0,0,3,0];
+        
+        
+
+ print(numbs);
+        
+        
+
+ function print(x){ 
+            
+
+   var id = -1;
+            
+   var hold = [];
+            
+   var num =-1;
+            
+            
+
+ do{num++; 
+            
+            
+     next = x[num];
+            
+            
+  for(i=num+1; i<x.length; i++){  
+                
+ 
+
+   if(next==x[i]){ id++
+           
+           
+
+   hold[id] = x[i]
+           
+   next =-17 //avoid repetitive check
+           
+               
+
+  }
+     }
+            }while(num<x.length-1)
+            
+
+   
+document.write(hold[hold.length-1]+"--"+hold.length);
+            
+      
+
+    }
+    
+
+</script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

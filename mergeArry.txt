@@ -1,0 +1,64 @@
+<html>
+
+<head>
+   
+ <script>
+    
+    
+
+//Merge two arrays
+        
+       
+
+ var numb = [1,2,3,4];
+        
+ var numbs = [1,4,6];
+        
+        
+
+ merge(numb,numbs);
+        
+        
+
+ function merge(x,y){ 
+            
+            
+
+     retArry = [];
+            
+     i=-1;
+            
+           
+
+      for(a=0; a<x.length; a++){
+  i++;
+    retArry[i]=x[a];
+            }
+ 
+
+           for(b=0; b<y.length; b++){
+   i++;
+                retArry[i]=y[b];
+       
+
+          }
+            
+            
+
+      alert(retArry.length);
+            
+    
+
+         
+        }
+    
+
+ </script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

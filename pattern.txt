@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    
+
+<script>
+    
+    
+
+//print
+        
+        
+
+var numb =0;
+        
+        
+window.onload=print;
+        
+        
+
+function print(){ 
+            
+               
+
+  for(j=0; j<4; j++){
+                    
+            
+            
+   document.write(pat(j+1))
+        
+              
+
+       }
+        }
+        
+        
+
+
+   function pat(x){ 
+            
+           
+
+         var j =0;
+            
+         var out="";
+            
+         var count =0;
+            
+        
+
+     while(x>0){ x--; 
+            
+              
+     count++;
+                
+            
+
+}
+
+    
+for(j=0; j<count; j++){numb++
+    out+=numb
+    
+}
+            
+            
+
+      out+="<br>";
+            
+            
+      return out;
+        
+}
+        
+    
+
+</script>
+
+
+</head>
+
+
+<body>
+</body>
+<htm

@@ -1,0 +1,96 @@
+<html>
+<head>
+    
+
+<script>
+    
+
+// Search a number in an array using binay search
+
+    
+
+var find=9;
+    
+var numbers=[1,2,3,8,9,11];
+    
+    
+
+binarySrch(find,numbers)
+    
+ 
+
+function binarySrch(x,numbs){ 
+     
+     
+
+ n=numbs.length;
+     
+ left=0;
+     right=n-1;
+     
+  middle=(left+right)/2;
+     
+    
+
+  middle = middle.toFixed(0)
+     
+        
+   
+
+  while(left<=right){
+        
+     if(numbs[middle]<x){
+            
+        left = middle;
+            
+          left++
+            
+            
+        
+
+   }
+        
+
+ else if(numbs[middle]==x){
+  alert(x+" Found at index: "+middle)
+  break;
+   
+
+         
+        }
+    else
+    {
+        right = middle;
+        right--;
+    }
+   
+
+  middle = (left+right)/2;
+    middle = middle.toFixed(0)
+    
+   
+
+   if(left>right){
+        
+        
+
+  alert(x+" Not found");
+        break;
+        
+    }
+    
+    }
+    
+    }
+    
+    
+
+  </script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

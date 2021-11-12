@@ -1,0 +1,59 @@
+<html>
+<head>
+<script>
+
+// Assume elements of an array are equals to a number and increament it by 1
+
+var numbs = [9,9,9]
+
+var newArr = solution(numbs);
+
+ alert(newArr[newArr.length-1])
+ alert(newArr)
+
+
+ function solution(x){  
+
+ var numbStr="";
+ var convert=0;
+ var num=0;
+ retArr = [];
+
+ for(i=0; i<x.length; i++){
+
+ numbStr+=x[i];
+
+}
+
+ convert=numbStr; convert++;
+
+ convert = convert.toString();
+
+ for(j=0; j<convert.length; j++){ 
+     num=convert[j]*1;
+
+ retArr[j]=num;
+
+}
+
+
+ return retArr;
+
+}
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</head>
+<body>
+</body>
+</html>

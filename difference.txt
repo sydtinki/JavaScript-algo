@@ -1,0 +1,42 @@
+<html>
+<head>
+<script>
+
+// Find difference of two numbers in an array that are equals to a particular number
+
+var nums = [1,7,5,9,2,12,3];
+var k =2;
+
+var diff = def(k,nums);
+
+ alert(diff[0])
+
+ function def(num,arr){ 
+
+ retArr=[];
+ id=-1;
+
+ for(i=0; i<arr.length; i++){
+
+ for(k=i+1; k<arr.length; k++){
+
+ if((nums[i]-nums[k])==num || (nums[k]-nums[i]) == num){ id++;
+
+ retArr[id] = nums[i]+" "+nums[k];
+
+}
+
+}
+
+}
+     return retArr;
+}
+</script>
+
+
+
+
+</head>
+<body>
+</body>
+</html>

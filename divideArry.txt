@@ -1,0 +1,65 @@
+<html>
+<head>
+    
+<script>
+    
+
+
+//Split elements of an array into two arrays
+        
+        
+
+var numbers = [1,2,3,4];
+        
+        
+
+ print(numbers);
+        
+        
+
+ function print(numb){ 
+           
+      mid = numb.length/2;
+            
+      a=[];
+            
+      b=[];
+            
+      id=-1;
+            
+            
+
+
+ for(i=0; i<mid; i++){
+    
+   for(j=mid; j<numb.length; j++){
+  id++;
+        
+       
+
+    a[id]=numb[i];
+        
+    b[id]=numb[j];
+                }
+    
+
+              }
+            
+            
+           
+
+    alert(a[0]+" "+b[0])
+            
+     
+   }
+   
+
+ </script>
+
+
+</head>
+
+
+<body>
+</body>
+<html>

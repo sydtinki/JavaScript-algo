@@ -1,0 +1,36 @@
+<html>
+<head>
+<script>
+
+// Swap first element with the last element
+
+var numbs = [7,9,9,9,6];
+
+var newArr = rotate(numbs);
+
+
+alert(newArr[0])
+alert(newArr[newArr.length-1])
+
+function rotate(x){
+    
+    var last = x[x.length-1]
+    var retArry = [];
+    var id = 0;
+    retArry[0]=last
+    
+    for(i=1; i<x.length-1; i++){ id++
+        retArry[i] = x[id]
+    }
+    
+    
+    return retArry;
+}
+
+
+</script>
+
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    
+<script>
+    
+    
+
+ //Print 10 Fibonacci numbers
+    
+   
+
+  var fib_list = fib(10);
+    
+    
+   
+
+  for(i=0; i<fib_list.length; i++){
+        
+      
+
+   document.write(fib_list[i]+" ");
+      
+
+        }
+        
+       
+
+        function fib(x){ 
+           
+
+          num = -1;
+           
+          var numbs =[];
+            
+    
+          let n1=0, n2=1, nextTerm;
+
+ 
+
+          for(i=0; i<x; i++){ num++
+     
+
+          next = n1;
+     
+     
+          numbs[num] = next;
+          
+      
+    
+          nextTerm = n1 + n2;
+     n1 = n2;
+     n2 = nextTerm;
+ }
+    
+
+        
+  return numbs
+            
+            
+     
+
+    }
+    
+
+ </script>
+
+
+
+ </head>
+
+<body>
+</body>
+<html>

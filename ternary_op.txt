@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    
+<script>
+    
+
+
+// using ternary operator
+        
+        
+
+window.onload=print;
+        
+        
+
+function print(){
+            
+
+  var fuel_level = 4 < 5 ? true : false
+            
+    
+  var min = 4 < 5 ? 4 : 5
+            
+    
+
+  alert(fuel_level)
+    alert(min)
+            
+       
+
+  }
+    
+
+ </script>
+
+ 
+
+</head>
+ 
+<body>
+</body>
+<html>

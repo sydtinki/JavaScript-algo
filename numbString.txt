@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    
+<script>
+    
+
+
+//Convert string number to an integer then increment it by 1
+        
+        
+       
+
+ print();
+        
+        
+
+function print(){ 
+           
+
+  num = "123";
+            
+  convert =0;
+            
+            
+  convert=num; convert++;
+            
+           
+
+  alert(convert)
+            
+            
+       
+
+  }
+   
+
+
+  </script>
+
+
+
+</head>
+
+<body>
+</body>
+<html>

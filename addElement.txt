@@ -1,0 +1,37 @@
+<html>
+<head>
+<script>
+
+// Add an element to the given array
+
+var numbs = [9,9,9];
+
+var newArr = add(numbs,7);
+
+
+alert(newArr[newArr.length-1])
+
+function add(x,num){
+    
+    retArry = [];
+    
+    for(i=0; i<x.length+1; i++){
+        retArry[i]=x[i];
+        
+        if(i==x.length){
+            retArry[i]=num;
+        }
+    }
+    return retArry;
+}
+
+
+</script>
+
+
+
+
+</head>
+<body>
+</body>
+</html>

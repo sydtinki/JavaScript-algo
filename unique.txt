@@ -1,0 +1,52 @@
+<html>
+<head>
+<script>
+
+// Remove duplicate numbers from an array and return only unique numbers
+
+var numbs = [7,9,9,9,6];
+
+var newArr = unique(numbs);
+
+
+alert(newArr.length)
+
+function unique(x){
+    
+    var retArry = [];
+    var id=-1
+    var cross =0
+    
+    for(i=0; i<x.length; i++){
+        cross +=x[i]
+    }
+    
+    do{ id++
+    next = x[id]
+    
+    for(i=id+1; i<x.length; i++){
+        if(next == x[i]){
+            x[i] = cross
+        }
+        
+    }
+    }while(id<x.length-1)
+    id=-1
+    
+    for(i=0; i<x.length; i++){
+        if(x[i] !=cross){ id++
+        
+            retArry[id] = x[i]
+        }
+    }
+    
+    return retArry;
+}
+
+
+</script>
+
+</head>
+<body>
+</body>
+</html>
